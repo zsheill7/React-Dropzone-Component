@@ -23,8 +23,7 @@ export class DropzoneComponent extends React.Component {
     let options = null
     const defaults = {
       url: this.props.config.postUrl ? this.props.config.postUrl : null,
-      maxFileSize: 2000,
-      filesizeBase: 2000
+      maxFilesize: 1000
     }
 
     if (this.props.djsConfig) {
