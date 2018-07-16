@@ -20,7 +20,7 @@ export class DropzoneComponent extends React.Component {
    * http://www.dropzonejs.com/#configuration
    */
   getDjsConfig () {
-    let options = { maxFileSize: 2000 }
+    let options = null
     const defaults = {
       url: this.props.config.postUrl ? this.props.config.postUrl : null
     }
